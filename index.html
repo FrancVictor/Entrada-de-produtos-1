@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Controle Entradas</title>
+    <link rel="stylesheet" href="./style.css"/>
+  </head>
+  <body>
+    <div id="titulo">
+      <h1>Controle entrada</h1>
+    </div>
+    <form id="dodo">
+      <div id="dodozin">
+        <label for="empresa-produto">Empresa ou Produto:</label>
+        <input type="text" id="empresa-produto" name="empresa-produto" required><br><br>
+        <label for="data">Data:</label>
+        <input type="date" id="data" name="data" required><br><br>
+        <label for="numero">N°:</label>
+        <input type="number" id="numero" name="numero" required><br><br>
+        <label for="quantidade">Quantidade ou Volume:</label>
+        <input type="text" id="quantidade" name="quantidade" required><br><br>
+        <label for="dados">Dados:</label> 
+        <input type="select" id="dados" name="dados" required> 
+      <label for="add"></label>
+      </div>
+      <input id="add" type="submit" value="Adicionar">
+      
+      
+      
+    </form>
+    <div id="entradas">
+      <h2>Entradas de Estoque</h2>
+      <ul id="estoque"></ul>
+      
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
